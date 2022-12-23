@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_coverpage.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_coverpage.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_coverpage.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_coverpage.md"
+                "file": "README.md"
               }
             }
           },
@@ -252,8 +252,8 @@
   },
   "active": "65fb785e4692730b",
   "lastOpenFiles": [
-    "_sidebar.md",
     "_coverpage.md",
+    "_sidebar.md",
     "README.md",
     "docs/方案设计/如何管理笔记.md",
     "docs/实用软件/软件存档.md",
