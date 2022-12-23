@@ -1,0 +1,17 @@
+{
+  "promptDelete": false,
+  "showLineNumber": true,
+  "newFileLocation": "current",
+  "newLinkFormat": "absolute",
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "zh-CN",
+    "en-US",
+    "en-GB-oxendict",
+    "en-GB",
+    "en-CA",
+    "en-AU"
+  ],
+  "attachmentFolderPath": "attachment",
+  "alwaysUpdateLinks": true
+}
