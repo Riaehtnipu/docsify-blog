@@ -3,5 +3,5 @@
 
 [常用资源](https://www.r2coding.com/#/)
 [GitHub](https://github.com/Riaehtnipu)
-[开始阅读](#docsify-demo)
+[开始阅读](#docsify-blog)
 
