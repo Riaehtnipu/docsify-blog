@@ -5,7 +5,7 @@
 [docsify搭建指南](docs/环境搭建/使用docsify搭建博客)
 
 ### 目录
-[_目录页](_sidebar.md)
+[目录页](_sidebar.md)
 
 ### 优质在线博客
 [JavaGuide](https://javaguide.cn/)
