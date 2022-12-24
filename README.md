@@ -2,7 +2,7 @@
 
 
 ### 博客搭建指南
-[1](docs/环境搭建/使用docsify搭建博客)
+[docsify搭建指南](docs/环境搭建/使用docsify搭建博客)
 
 
 
