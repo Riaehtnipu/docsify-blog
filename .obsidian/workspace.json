@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_coverpage.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_coverpage.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_coverpage.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_coverpage.md"
+                "file": "README.md"
               }
             }
           },
@@ -155,12 +155,12 @@
   },
   "active": "d19f079966af89f3",
   "lastOpenFiles": [
+    "docs/环境搭建/使用docsify搭建博客.md",
+    "_coverpage.md",
     "_sidebar.md",
     "README.md",
-    "_coverpage.md",
     "docs/实用软件/软件存档.md",
     "docs/方案设计/如何管理笔记.md",
-    "docs/环境搭建/使用docsify搭建博客.md",
     "docs/环境搭建/使用vuepress搭建博客.md",
     "docs/环境搭建/图床的搭建.md",
     "docs/环境搭建/git初始化.md",

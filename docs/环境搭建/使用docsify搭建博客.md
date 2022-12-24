@@ -38,4 +38,4 @@ index.html下维护了docsify的配置信息
 
 ### 初始化模板
 在安装docsify之后不想折腾配置文件可以直接拷贝以下模板：
-[docsify-template](https://github.com/Riaehtnipu/docsify-template)
+[docsify-obsidian-template](https://github.com/Riaehtnipu/docsify-obsidian-template)
