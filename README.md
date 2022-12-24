@@ -2,7 +2,8 @@
 
 
 ### 博客搭建指南
-[[docs/环境搭建/使用docsify搭建博客]]
+[1](docs/环境搭建/使用docsify搭建博客)
+
 
 
 ### 优质在线博客
@@ -23,5 +24,3 @@
 **Github**: https://github.com/Riaehtnipu
 
 **码云:** https://gitee.com/Riaehtnipu
-
-![](https://imgkr.cn-bj.ufileos.com/66f3a716-b3cc-469b-9b61-8be00244305c.png)
