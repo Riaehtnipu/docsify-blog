@@ -13,7 +13,7 @@
             "state": {
               "type": "diff-view",
               "state": {
-                "file": ".obsidian/workspace.json",
+                "file": "docs/实用软件/软件存档.md",
                 "staged": false
               }
             }
@@ -150,9 +150,9 @@
   },
   "active": "d19f079966af89f3",
   "lastOpenFiles": [
+    "docs/实用软件/软件存档.md",
     "docs/环境搭建/git初始化.md",
     "docs/环境搭建/图床的搭建.md",
-    "docs/实用软件/软件存档.md",
     "README.md",
     "docs/环境搭建/使用docsify搭建博客.md",
     "_coverpage.md",
