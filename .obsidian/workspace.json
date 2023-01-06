@@ -13,7 +13,7 @@
             "state": {
               "type": "diff-view",
               "state": {
-                "file": "docs/实用软件/软件存档.md",
+                "file": ".obsidian/workspace.json",
                 "staged": false
               }
             }
@@ -148,7 +148,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d19f079966af89f3",
+  "active": "e6693bd0bdaeadb5",
   "lastOpenFiles": [
     "docs/实用软件/软件存档.md",
     "docs/环境搭建/git初始化.md",
