@@ -29,9 +29,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "549535b9cc7445c5",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "docs/实用软件/软件存档.md",
+                "staged": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +108,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/环境搭建/Mac初始化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +124,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/环境搭建/Mac初始化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +145,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "docs/环境搭建/Mac初始化.md"
-              }
+              "state": {}
             }
           },
           {
@@ -165,17 +172,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "99f25030513d6e39",
+  "active": "549535b9cc7445c5",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "docs/环境搭建/Mac初始化.md",
     "docs/环境搭建/git初始化.md",
     "docs/环境搭建/图床的搭建.md",
-    "docs/环境搭建/Mac初始化.md",
     "docs/实用软件/软件存档.md",
     "README.md",
     "docs/环境搭建/使用docsify搭建博客.md",
     "_coverpage.md",
     "_sidebar.md",
-    "docs/方案设计/如何管理笔记.md",
-    "docs/环境搭建/使用vuepress搭建博客.md"
+    "docs/方案设计/如何管理笔记.md"
   ]
 }

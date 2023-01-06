@@ -17,3 +17,7 @@
 
 生成的密钥默认放在路径:
 > C:\Users\Yoga\.ssh
+
+构建github <--> gitee双向同步
+[gitee帮助中心](https://gitee.com/help/articles/4336#article-header2)
+
