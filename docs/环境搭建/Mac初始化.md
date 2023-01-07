@@ -1,15 +1,15 @@
 
-* 访达设置
+* Mac设置
 	* 设置-触控板-光标与点按-轻点来点按
 	* 设置-触控板-更多手势-App Expose-四指向下轻扫
 	* 设置-辅助功能-指针控制-触控板选项-启动拖移-三指拖移
+	* 设置-安全性与隐私-通用-允许从以下位置下载的APP
+	* 设置-桌面与屏幕保护程序-动态桌面
 	* 拖动文件如何自动整理？
+	* 备忘录-编辑-拼写和语法-自动纠正拼写关闭
 	* 常用快捷键
 		* command + shift + . 查看隐藏文件夹
 		* command + shift + g 前往文件夹
-
-* 备忘录
-	* 备忘录-编辑-拼写和语法-自动纠正拼写关闭
 
 * QQ
 * 微信
@@ -18,6 +18,7 @@
 * Sourcetree
 * Xnip
 * Tecent Lemon
+	* 在网页上下载，不要在App Store下载
 	* 应用程序无法卸载就用lemon，或者拖动到垃圾篓里试试
 
 * Google Chrome
@@ -50,6 +51,74 @@
 	* 打开剪切板设置，设置快捷键
 	* Alfred和Spotlight快捷键替换
 
+ * todo：插件
+ * [Alfred 修改内置 Terminal 为 iTerm2](https://ld246.com/article/1567998289912)
+```shell
+ -- 原来自带的
+ on alfred_script(q)
+	tell application "Terminal"
+		activate
+		do script q
+	end tell
+end alfred_script
+```
+
+
+```
+
+-- This is v0.6 of the custom script for AlfredApp for iTerm 2.9+
+-- Please see https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred/
+-- for the latest changes.
+
+-- Please note, if you store the iTerm binary in any other location than the Applications Folder
+-- please ensure you update the two locations below (in the format of : rather than / for folder dividers)
+-- this gets around issues with AppleScript not handling things well if you have two iTerm binaries on your system... which can happen :D
+
+on alfred_script(q)
+	if application "iTerm2" is running or application "iTerm" is running then
+		run script "
+			on run {q}
+				tell application \":Applications:iTerm.app\"
+					activate
+					try
+						select first window
+						set onlywindow to true
+					on error
+						create window with default profile
+						select first window
+						set onlywindow to true
+					end try
+					tell the first window
+						if onlywindow is false then
+							create tab with default profile
+						end if
+						tell current session to write text q
+					end tell
+				end tell
+			end run
+		" with parameters {q}
+	else
+		run script "
+			on run {q}
+				tell application \":Applications:iTerm.app\"
+					activate
+					try
+						select first window
+					on error
+						create window with default profile
+						select first window
+					end try
+					tell the first window
+						tell current session to write text q
+					end tell
+				end tell
+			end run
+		" with parameters {q}
+	end if
+end alfred_script
+```
+
+
 * Homebrew
 	* 官网复制命令，可能无法访问。修改hosts或者使用其他镜像
 	* [修改hosts](https://blog.csdn.net/qq_43531694/article/details/106862753)
@@ -75,4 +144,23 @@
 * 上网
 	* Github搜
 
+
+Parallels Desktop
+
+Navicat
+
+* charles
+	如何抓包
+
+
 todo:开发工具的初始化可以单独弄一些文档
+目录能否使用vscode自动生成？？
+系统软件整理
+虚拟机搭建多节点
+alfred插件
+还少装了一些软件、对比一下windows和mac
+
+虚拟机重新走一遍流程
+
+显示桌面
+超级右键
