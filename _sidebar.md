@@ -1,10 +1,9 @@
-
-  - **实用软件**
-    - [软件存档](docs/实用软件/软件存档.md)
-  - **方案设计**
-    - [如何管理笔记](docs/方案设计/如何管理笔记.md)
-  - **环境搭建**
-    - [Git初始化](docs/环境搭建/Git初始化.md)
-    - [使用docsify搭建博客](docs/环境搭建/使用docsify搭建博客.md)
-    - [使用vuepress搭建博客](docs/环境搭建/使用vuepress搭建博客.md)
-    - [图床的搭建](docs/环境搭建/图床的搭建.md)
+- [**123**](README.md)
+- [README](.obsidian/plugins/obsidian-proxy-github-master/README.md)
+- [软件存档](docs/实用软件/软件存档.md)
+- [如何管理笔记](docs/方案设计/如何管理笔记.md)
+- [Git初始化](docs/环境搭建/Git初始化.md)
+- [Mac初始化](docs/环境搭建/Mac初始化.md)
+- [使用docsify搭建博客](docs/环境搭建/使用docsify搭建博客.md)
+- [使用vuepress搭建博客](docs/环境搭建/使用vuepress搭建博客.md)
+- [图床的搭建](docs/环境搭建/图床的搭建.md)
