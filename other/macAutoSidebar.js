@@ -1,6 +1,6 @@
-var sidebarTxt = '- [**123**](\README.md)\n';
+var sidebarTxt = '- [**README**](\README.md)\n';
 var path = require('path');
-var curPath = path.resolve('./');
+var curPath = path.resolve('./../docs');
 var baseDirArr = [];
 
 function walkSync(currentDirPath, callback) {
@@ -26,7 +26,7 @@ walkSync(curPath, function (filePath, stat) {
 		if (relativeFilePath == path.basename(filePath)) {//如果最后的string和原来的一样
 			return;
 		}
-		var relativeFilePathArr = relativeFilePath.split('\\')//这里可以看情况改
+		var relativeFilePathArr = relativeFilePath.split('/')//这里可以看情况改
 
 		for (var i = 0; i < relativeFilePathArr.length; i++) {
 			if (baseDirArr[i] == relativeFilePathArr[i]) {//相同就continue
@@ -51,7 +51,7 @@ var path = require('path');
 var fs = require('fs');
 
 // 替换反斜杠
-sidebarTxt = sidebarTxt.replace(/\\/g, '/');
+// sidebarTxt = sidebarTxt.replace(/\\/g, '/');
 console.log(sidebarTxt);
 
 
