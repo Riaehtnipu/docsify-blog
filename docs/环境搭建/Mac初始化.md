@@ -96,6 +96,10 @@
 		 * Preferences｜Build, Execution, Deployment | Build Tools | Maven
 			 * 勾选Always update snapshots
 			 * importing｜VM options for importer -Xmx2000m
+			 * Maven home path 
+				 * /opt/homebrew/Cellar/maven/3.8.7/libexec
+			 * User settings file
+				 * /opt/homebrew/Cellar/maven/3.8.7/libexec/conf/settings.xml
 	* 编译堆内存
 		* Preferences｜Build, Execution, Deployment | Compiler
 			* Build process heap size(Mbytes):2000
@@ -293,14 +297,43 @@ mysql -uroot
 mysql_secure_installation	
 ```
 
+
+
+* Maven
+```
+brew install maven
+
+
+## 文件位置 ~/.zshrc
+ 
+# 设置 JDK 8
+export JAVA_8_HOME="~/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home"
+# 设置 JDK 11
+export JAVA_11_HOME="~/Library/Java/JavaVirtualMachines/corretto-11.0.17/Contents/Home"
+# 设置 JDK 17
+export JAVA_17_HOME="~/Library/Java/JavaVirtualMachines/corretto-17.0.5/Contents/Home"
+ 
+#默认JDK 8
+export JAVA_HOME=$JAVA_8_HOME
+ 
+#alias命令动态切换JDK版本
+alias jdk8="export JAVA_HOME=$JAVA_8_HOME"
+alias jdk11="export JAVA_HOME=$JAVA_11_HOME"
+alias jdk17="export JAVA_HOME=$JAVA_17_HOME"
+
+
+echo 'export PATH=/opt/homebrew/opt/maven/bin:$PATH' >> ~/.zshrc
+
+# 建立软链ln -fsv new old
+source ~/.zshrc
+
+```
+	
+ 
+
 todo:开发工具的初始化单独弄一些文档
-目录能否使用vscode自动生成？？ 
 虚拟机搭建多节点
 ipad mac联动
 (PicGo、Acrobat)
-
-试试wps
-安装一些sniplab
-没安装maven
 
 虚拟机重新走一遍流程
