@@ -55,7 +55,7 @@ var fs = require('fs');
 console.log(sidebarTxt);
 
 
-fs.writeFile(path.resolve('./') + '/_sidebar.md', sidebarTxt, function (err) {
+fs.writeFile(path.resolve('./') + '/..' + '/_sidebar.md', sidebarTxt, function (err) {
 	if (err) {
 		console.error(err);
 	}
