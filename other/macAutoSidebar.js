@@ -1,5 +1,6 @@
 var sidebarTxt = '- [**README**](\README.md)\n';
 var path = require('path');
+// docs文件夹，可以修改
 var curPath = path.resolve('./../docs');
 var baseDirArr = [];
 
@@ -11,7 +12,7 @@ function walkSync(currentDirPath, callback) {
 		var stat = fs.statSync(filePath);
 		if (stat.isFile()) {//是文件
 			callback(filePath, stat);
-		} else if (stat.isDirectory() && !filePath.includes(".git")) {//是目录但不是.git
+		} else if (stat.isDirectory()) {
 			walkSync(filePath, callback);
 		}
 	});
@@ -40,7 +41,8 @@ walkSync(curPath, function (filePath, stat) {
 				sidebarTxt += '- **' + relativeFilePathArr[i] + '**\n';
 			}
 			if (i == relativeFilePathArr.length - 1) {//输入md文件夹
-				sidebarTxt += '- [' + path.basename(relativeFilePathArr[i],".md") + '](' + relativeFilePath + ')\n';
+				// 这里可以修改
+				sidebarTxt += '- [' + path.basename(relativeFilePathArr[i],".md") + '](' + "docs/" + relativeFilePath + ')\n';
 			}
 
 		}
@@ -54,8 +56,8 @@ var fs = require('fs');
 // sidebarTxt = sidebarTxt.replace(/\\/g, '/');
 console.log(sidebarTxt);
 
-
-fs.writeFile(path.resolve('./') + '/..' + '/_sidebar.md', sidebarTxt, function (err) {
+// docs文件夹，可以修改
+fs.writeFile(path.resolve('./../docs') + '/_sidebar.md', sidebarTxt, function (err) {
 	if (err) {
 		console.error(err);
 	}
