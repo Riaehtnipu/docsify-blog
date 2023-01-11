@@ -57,7 +57,7 @@ var fs = require('fs');
 console.log(sidebarTxt);
 
 // docs文件夹，可以修改
-fs.writeFile(path.resolve('./../docs') + '/_sidebar.md', sidebarTxt, function (err) {
+fs.writeFile(path.resolve('./..') + '/_sidebar.md', sidebarTxt, function (err) {
 	if (err) {
 		console.error(err);
 	}
