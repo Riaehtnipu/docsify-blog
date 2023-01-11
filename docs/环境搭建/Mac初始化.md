@@ -75,8 +75,9 @@
 		* echo $PATH
 		* where java
 		* which java
-	 * 字体大小设置为20
-	 * 代码签名设置
+	* File ｜Other Settings ｜Preferences For New Projects才是对全部项目生效
+	* 字体大小设置为20
+	* 代码签名设置
 		* Preferences｜Editor | File and Code Template | Includes设置代码签名
 		```java
 		/**
