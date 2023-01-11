@@ -278,9 +278,20 @@ end alfred_script
 		* 自带了一些编译器？java，gcc
 		* mac 目前自带python3，没有python2了
 
+* MySQL
+```
+brew install mysql@5.7
 
+echo 'export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
 
+mysql.server start
 
+mysql -uroot
+
+// 启动后执行
+mysql_secure_installation	
+```
 
 todo:开发工具的初始化单独弄一些文档
 目录能否使用vscode自动生成？？ 
