@@ -308,11 +308,11 @@ brew install maven
 ## 文件位置 ~/.zshrc
  
 # 设置 JDK 8
-export JAVA_8_HOME="~/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home"
+export JAVA_8_HOME="/Users/xkx/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home"
 # 设置 JDK 11
-export JAVA_11_HOME="~/Library/Java/JavaVirtualMachines/corretto-11.0.17/Contents/Home"
+export JAVA_11_HOME="/Users/xkx/Library/Java/JavaVirtualMachines/corretto-11.0.17/Contents/Home"
 # 设置 JDK 17
-export JAVA_17_HOME="~/Library/Java/JavaVirtualMachines/corretto-17.0.5/Contents/Home"
+export JAVA_17_HOME="/Users/xkx/Library/Java/JavaVirtualMachines/corretto-17.0.5/Contents/Home"
  
 #默认JDK 8
 export JAVA_HOME=$JAVA_8_HOME
