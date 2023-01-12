@@ -79,12 +79,12 @@
 	* 字体大小设置为20
 	* 代码签名设置
 		* Preferences｜Editor | File and Code Template | Includes设置代码签名
-		```java
+	```java
 		/**
 		 * @author xiangkexin <xiangkx2018@outlook.com>
 		 * Created on ${YEAR}-${MONTH}-${DAY}    
 		 */
-		```
+	```
 
 	 * JVM内存配置
 		 * Help ｜ Edit Custom VM Options
