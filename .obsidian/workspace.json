@@ -146,24 +146,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
   "active": "78c6effe6e9e74c3",
   "lastOpenFiles": [
-    "_coverpage.md",
-    "_sidebar.md",
     "README.md",
-    "docs/环境搭建/Git初始化.md",
+    "_sidebar.md",
     "docs/环境搭建/Mac初始化.md",
+    "_coverpage.md",
+    "sortspec.md",
+    "docs/环境搭建/Git初始化.md",
     "docs/环境搭建/使用docsify搭建博客.md",
     "docs/环境搭建/使用vuepress搭建博客.md",
     "docs/环境搭建/图床的搭建.md",
-    "conflict-files-obsidian-git.md",
-    "docs/实用软件/软件存档.md"
+    "conflict-files-obsidian-git.md"
   ]
 }

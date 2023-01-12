@@ -325,7 +325,7 @@ alias jdk17="export JAVA_HOME=$JAVA_17_HOME"
 
 echo 'export PATH=/opt/homebrew/opt/maven/bin:$PATH' >> ~/.zshrc
 
-# 建立软链ln -fsv new old
+# 建立软链ln -fsv $(pwd)/src/main/resources/settings.xml 指向 软链地址
 source ~/.zshrc
 
 ```
