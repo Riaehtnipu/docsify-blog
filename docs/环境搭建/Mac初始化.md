@@ -77,22 +77,21 @@
 	- 代码签名设置
 		- Preferences｜Editor | File and Code Template | Includes设置代码签名
 		- 代码示例
-		
-			```java
-				/**
-				* @author xiangkexin <xiangkx2018@outlook.com>
-				* Created on ${YEAR}-${MONTH}-${DAY}    
-				*/
-			```
+		```java
+			/**
+			* @author xiangkexin <xiangkx2018@outlook.com>
+			* Created on ${YEAR}-${MONTH}-${DAY}    
+			*/
+		```
 
 	 - JVM内存配置
 		 - Help ｜ Edit Custom VM Options
-
-			```
-				-Xms1g
-				-Xmx4g
-				-XX:ReservedCodeCacheSize=1g
-			```
+		 - 代码示例
+		```
+			-Xms1g
+			-Xmx4g
+			-XX:ReservedCodeCacheSize=1g
+		```
 
 	 - Maven配置
 		 - Preferences｜Build, Execution, Deployment | Build Tools | Maven
@@ -200,59 +199,58 @@
 		- [alfred-terminalfinder](https://github.com/LeEnno/alfred-terminalfinder)
 		- [json-formatter-alfred-workflow](https://github.com/gymgle/json-formatter-alfred-workflow)
 	 - [Alfred 修改内置 Terminal 为 iTerm2](https://ld246.com/article/1567998289912)
-	
 	```shell
-	<!-- 原来自带的 -->
-	on alfred_script(q)
-		tell application "Terminal"
-			activate
-			do script q
-		end tell
-	end alfred_script
+		<!-- 原来自带的 -->
+		on alfred_script(q)
+			tell application "Terminal"
+				activate
+				do script q
+			end tell
+		end alfred_script
 
-	<!-- 现在的 -->
-	on alfred_script(q)
-		if application "iTerm2" is running or application "iTerm" is running then
-			run script "
-				on run {q}
-					tell application \":Applications:iTerm.app\"
-						activate
-						try
-							select first window
-							set onlywindow to true
-						on error
-							create window with default profile
-							select first window
-							set onlywindow to true
-						end try
-						tell the first window
-							if onlywindow is false then
-								create tab with default profile
-							end if
-							tell current session to write text q
+		<!-- 现在的 -->
+		on alfred_script(q)
+			if application "iTerm2" is running or application "iTerm" is running then
+				run script "
+					on run {q}
+						tell application \":Applications:iTerm.app\"
+							activate
+							try
+								select first window
+								set onlywindow to true
+							on error
+								create window with default profile
+								select first window
+								set onlywindow to true
+							end try
+							tell the first window
+								if onlywindow is false then
+									create tab with default profile
+								end if
+								tell current session to write text q
+							end tell
 						end tell
-					end tell
-				end run
-			" with parameters {q}
-		else
-			run script "
-				on run {q}
-					tell application \":Applications:iTerm.app\"
-						activate
-						try
-							select first window
-						on error
-							create window with default profile
-							select first window
-						end try
-						tell the first window
-							tell current session to write text q
+					end run
+				" with parameters {q}
+			else
+				run script "
+					on run {q}
+						tell application \":Applications:iTerm.app\"
+							activate
+							try
+								select first window
+							on error
+								create window with default profile
+								select first window
+							end try
+							tell the first window
+								tell current session to write text q
+							end tell
 						end tell
-					end tell
-				end run
-			" with parameters {q}
-		end if
-	end alfred_script
+					end run
+				" with parameters {q}
+			end if
+		end alfred_script
 	```
 
 
@@ -275,51 +273,50 @@
 		- mac 目前自带python3，没有python2了
 
 - MySQL
+	- 安装示例
+	```shell
+		brew install mysql@5.7
 
-```shell
-brew install mysql@5.7
+		echo 'export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"' >> ~/.zshrc
+		source ~/.zshrc
 
-echo 'export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"' >> ~/.zshrc
-source ~/.zshrc
+		mysql.server start
 
-mysql.server start
+		mysql -uroot
 
-mysql -uroot
-
-// 启动后执行
-mysql_secure_installation	
-```
+		// 启动后执行
+		mysql_secure_installation	
+	```
 
 
 
 - Maven
+	- 安装示例	
+	```shell
+		brew install maven
 
-```shell
-brew install maven
+		## 文件位置 ~/.zshrc
+		
+		# 设置 JDK 8
+		export JAVA_8_HOME="/Users/xkx/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home"
+		# 设置 JDK 11
+		export JAVA_11_HOME="/Users/xkx/Library/Java/JavaVirtualMachines/corretto-11.0.17/Contents/Home"
+		# 设置 JDK 17
+		export JAVA_17_HOME="/Users/xkx/Library/Java/JavaVirtualMachines/corretto-17.0.5/Contents/Home"
+		
+		#默认JDK 8
+		export JAVA_HOME=$JAVA_8_HOME
+		
+		#alias命令动态切换JDK版本
+		alias jdk8="export JAVA_HOME=$JAVA_8_HOME"
+		alias jdk11="export JAVA_HOME=$JAVA_11_HOME"
+		alias jdk17="export JAVA_HOME=$JAVA_17_HOME"
 
-## 文件位置 ~/.zshrc
- 
-# 设置 JDK 8
-export JAVA_8_HOME="/Users/xkx/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home"
-# 设置 JDK 11
-export JAVA_11_HOME="/Users/xkx/Library/Java/JavaVirtualMachines/corretto-11.0.17/Contents/Home"
-# 设置 JDK 17
-export JAVA_17_HOME="/Users/xkx/Library/Java/JavaVirtualMachines/corretto-17.0.5/Contents/Home"
- 
-#默认JDK 8
-export JAVA_HOME=$JAVA_8_HOME
- 
-#alias命令动态切换JDK版本
-alias jdk8="export JAVA_HOME=$JAVA_8_HOME"
-alias jdk11="export JAVA_HOME=$JAVA_11_HOME"
-alias jdk17="export JAVA_HOME=$JAVA_17_HOME"
+		echo 'export PATH=/opt/homebrew/opt/maven/bin:$PATH' >> ~/.zshrc
 
-
-echo 'export PATH=/opt/homebrew/opt/maven/bin:$PATH' >> ~/.zshrc
-
-# 建立软链ln -fsv $(pwd)/src/main/resources/settings.xml 指向 软链地址
-source ~/.zshrc
-```
+		# 建立软链ln -fsv $(pwd)/src/main/resources/settings.xml 指向 软链地址
+		source ~/.zshrc
+	```
 	
  
 
