@@ -114,32 +114,23 @@
 	- xcode-select自带：xcode-select —install
 		- 自带了一些编译器？java，gcc
 		- mac 目前自带python3，没有python2了
+	- [Git初始化](docs/环境搭建/Git初始化.md) 
 
 - MySQL
-	- 安装示例
-	```shell
-		brew install mysql@5.7
-
-		echo 'export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"' >> ~/.zshrc
-		source ~/.zshrc
-
-		mysql.server start
-
-		mysql -uroot
-
-		// 启动后执行
-		mysql_secure_installation	
-	```
+	1. 使用homebrew安装 brew install mysql@5.7
+	2. 修改文件内容 vim ~/.zshrc
+		> echo 'export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"' >> ~/.zshrc
+	3. 生效文件 source ~/.zshrc
+	4. 启动 mysql.server start
+	5. 连接 mysql -uroot
+	6. 启动后配置密码 mysql_secure_installation	
 
 
 
 - Maven
-	- 安装示例	
-	```shell
-		brew install maven
-
-		## 文件位置 ~/.zshrc
-		
+	1. 使用homebrew安装 brew install maven
+	2. 修改文件内容 vim ~/.zshrc
+	```shell		
 		# 设置 JDK 8
 		export JAVA_8_HOME="/Users/xkx/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home"
 		# 设置 JDK 11
@@ -156,10 +147,9 @@
 		alias jdk17="export JAVA_HOME=$JAVA_17_HOME"
 
 		echo 'export PATH=/opt/homebrew/opt/maven/bin:$PATH' >> ~/.zshrc
-
-		# 建立软链ln -fsv $(pwd)/src/main/resources/settings.xml 指向 软链地址
-		source ~/.zshrc
 	```
+	4. 可以建立软链 ln -fsv $(pwd)/src/main/resources/settings.xml 指向 软链地址
+	5. 生效文件 source ~/.zshrc
 	
  
 
