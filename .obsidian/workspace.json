@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_sidebar.md",
+                "file": "docs/环境搭建/Mac初始化.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_sidebar.md",
+                "file": "docs/环境搭建/Mac初始化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_sidebar.md",
+                "file": "docs/环境搭建/Mac初始化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_sidebar.md"
+                "file": "docs/环境搭建/Mac初始化.md"
               }
             }
           },
@@ -163,6 +163,8 @@
   },
   "active": "78c6effe6e9e74c3",
   "lastOpenFiles": [
+    "docs/环境搭建/图床的搭建.md",
+    "_sidebar.md",
     "docs/环境搭建/Mac初始化.md",
     "docs/环境搭建/IntelliJ IDEA初始化.md",
     "docs/环境搭建/Alfred初始化.md",
@@ -170,8 +172,6 @@
     "conflict-files-obsidian-git.md",
     "docs/实用软件/软件存档.md",
     "_coverpage.md",
-    "_sidebar.md",
-    "README.md",
-    "docs/环境搭建/使用docsify搭建博客.md"
+    "README.md"
   ]
 }
