@@ -66,7 +66,7 @@
 		- python（根据提示安装）
 
 - IntelliJ IDEA
-	- [IntelliJ IDEA初始化](docs/环境搭建/IntelliJ%20IDEA初始化.md)
+	- [IntelliJ IDEA初始化](docs/环境搭建/IDEA初始化.md)
 
 ### APP Store下载
 
