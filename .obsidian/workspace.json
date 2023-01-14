@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/环境搭建/Alfred初始化.md",
+                "file": "docs/环境搭建/Git初始化.md",
                 "mode": "source",
                 "source": false
               }
@@ -47,8 +47,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/环境搭建/Alfred初始化.md",
+                "file": "docs/环境搭建/Mac初始化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/环境搭建/Alfred初始化.md",
+                "file": "docs/环境搭建/Mac初始化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/环境搭建/Alfred初始化.md"
+                "file": "docs/环境搭建/Mac初始化.md"
               }
             }
           },
@@ -182,16 +181,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "bc010f52527b82aa",
+  "active": "78c6effe6e9e74c3",
   "lastOpenFiles": [
+    "docs/环境搭建/Git初始化.md",
     "docs/环境搭建/Mac初始化.md",
+    "docs/环境搭建/Alfred初始化.md",
     "docs/环境搭建/IDEA初始化.md",
     "docs/环境搭建/使用docsify搭建博客.md",
     "_sidebar.md",
-    "docs/环境搭建/Git初始化.md",
     "docs/环境搭建/图床的搭建.md",
     "docs/环境搭建/IntelliJ IDEA初始化.md",
-    "docs/环境搭建/Alfred初始化.md",
     "conflict-files-obsidian-git.md",
     "docs/实用软件/软件存档.md"
   ]
