@@ -66,7 +66,7 @@
 		- python（根据提示安装）
 
 - IntelliJ IDEA
-	- [IDEA初始化](docs/环境搭建/IDEA初始化.md)
+	- [IDEA初始化](./docs/环境搭建/IDEA初始化.md)
 
 ### APP Store下载
 
@@ -93,7 +93,7 @@
 - Parallels DeskTop
 
 - Alfred 5
-	- [Alfred初始化](docs/环境搭建/Alfred初始化.md)
+	- [Alfred初始化](/docs/环境搭建/Alfred初始化.md)
 
 
 
