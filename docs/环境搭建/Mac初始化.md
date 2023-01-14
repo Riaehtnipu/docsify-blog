@@ -77,6 +77,7 @@
 	- 代码签名设置
 		- Preferences｜Editor | File and Code Template | Includes设置代码签名
 		- 代码示例
+
 		```java
 		/**
 		 * @author xiangkexin <xiangkx2018@outlook.com>
@@ -86,6 +87,7 @@
 
 	 - JVM内存配置
 		 - Help ｜ Edit Custom VM Options
+		 
 		```java
 		-Xms1g
 		-Xmx4g
@@ -198,7 +200,6 @@
 		- [json-formatter-alfred-workflow](https://github.com/gymgle/json-formatter-alfred-workflow)
 	 - [Alfred 修改内置 Terminal 为 iTerm2](https://ld246.com/article/1567998289912)
 	
-
 	```shell
 	<!-- 原来自带的 -->
 	on alfred_script(q)
@@ -273,6 +274,7 @@
 		- mac 目前自带python3，没有python2了
 
 - MySQL
+
 ```shell
 brew install mysql@5.7
 
@@ -290,6 +292,7 @@ mysql_secure_installation
 
 
 - Maven
+
 ```shell
 brew install maven
 
