@@ -66,7 +66,7 @@
 		- python（根据提示安装）
 
 - IntelliJ IDEA
-	- [IDEA初始化](IDEA初始化.md)
+	- [IDEA初始化](docs/环境搭建/IDEA初始化.md)
 
 ### APP Store下载
 
@@ -93,7 +93,7 @@
 - Parallels DeskTop
 
 - Alfred 5
-	- [Alfred初始化](Alfred初始化.md)
+	- [Alfred初始化](docs/环境搭建/Alfred初始化.md)
 
 
 
@@ -114,7 +114,7 @@
 	- xcode-select自带：xcode-select —install
 		- 自带了一些编译器？java，gcc
 		- mac 目前自带python3，没有python2了
-	- [Git初始化](Git初始化.md)
+	- [Git初始化](docs/环境搭建/Git初始化.md)
 
 
 - MySQL
