@@ -6,7 +6,7 @@
 - **环境搭建**
   - [Alfred初始化](docs/环境搭建/Alfred初始化.md)
   - [Git初始化](docs/环境搭建/Git初始化.md)
-  - [IntelliJ IDEA初始化](docs/环境搭建/IntelliJ IDEA初始化.md)
+  - [IDEA初始化](docs/环境搭建/IDEA初始化.md)
   - [Mac初始化](docs/环境搭建/Mac初始化.md)
   - [使用docsify搭建博客](docs/环境搭建/使用docsify搭建博客.md)
   - [使用vuepress搭建博客](docs/环境搭建/使用vuepress搭建博客.md)
