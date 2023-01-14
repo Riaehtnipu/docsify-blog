@@ -79,12 +79,10 @@
 		- 代码示例
 		
 			```java
-			{
 				/**
 				* @author xiangkexin <xiangkx2018@outlook.com>
 				* Created on ${YEAR}-${MONTH}-${DAY}    
 				*/
-			}
 			```
 
 	 - JVM内存配置
