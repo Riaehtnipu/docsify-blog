@@ -78,20 +78,22 @@
 		- Preferences｜Editor | File and Code Template | Includes设置代码签名
 		- 代码示例
 		
-			```Java
-			/**
-			* @author xiangkexin <xiangkx2018@outlook.com>
-			* Created on ${YEAR}-${MONTH}-${DAY}    
-			*/
+			```java
+			{
+				/**
+				* @author xiangkexin <xiangkx2018@outlook.com>
+				* Created on ${YEAR}-${MONTH}-${DAY}    
+				*/
+			}
 			```
 
 	 - JVM内存配置
 		 - Help ｜ Edit Custom VM Options
 
-			```java
-			-Xms1g
-			-Xmx4g
-			-XX:ReservedCodeCacheSize=1g
+			```
+				-Xms1g
+				-Xmx4g
+				-XX:ReservedCodeCacheSize=1g
 			```
 
 	 - Maven配置
