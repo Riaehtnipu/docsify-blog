@@ -2,7 +2,7 @@
   "promptDelete": false,
   "showLineNumber": true,
   "newFileLocation": "current",
-  "newLinkFormat": "absolute",
+  "newLinkFormat": "relative",
   "spellcheck": true,
   "spellcheckLanguages": [
     "zh-CN",
