@@ -78,21 +78,22 @@
 		- Preferences｜Editor | File and Code Template | Includes设置代码签名
 		- 代码示例
 		
-```java
-/**
-* @author xiangkexin <xiangkx2018@outlook.com>
-* Created on ${YEAR}-${MONTH}-${DAY}    
-*/
-```
+			```Java
+			/**
+			* @author xiangkexin <xiangkx2018@outlook.com>
+			* Created on ${YEAR}-${MONTH}-${DAY}    
+			*/
+			```
 
 	 - JVM内存配置
 		 - Help ｜ Edit Custom VM Options
 
-		```java
-		-Xms1g
-		-Xmx4g
-		-XX:ReservedCodeCacheSize=1g
-		```
+			```java
+			-Xms1g
+			-Xmx4g
+			-XX:ReservedCodeCacheSize=1g
+			```
+
 	 - Maven配置
 		 - Preferences｜Build, Execution, Deployment | Build Tools | Maven
 			 - 勾选Always update snapshots
