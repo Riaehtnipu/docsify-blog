@@ -71,6 +71,9 @@
 - IntelliJ IDEA
 	- [IDEA初始化](/docs/环境搭建/IDEA初始化.md)
 
+- PyCharm
+- GoLand
+
 ### APP Store下载
 
 - Xnip
