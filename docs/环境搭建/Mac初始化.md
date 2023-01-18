@@ -26,6 +26,9 @@
 - 迅雷
 - Sourcetree
 - IINA
+	- 设置为默认播放器
+	- command + [ 或者 command + ] 在1/2/4倍速切换
+	- command + option + [ 或者 command + option + ] 在x1.1倍速切换
 - Fliqlo
 - Postman
 
