@@ -72,7 +72,9 @@
 	- [IDEA初始化](/docs/环境搭建/IDEA初始化.md)
 
 - PyCharm
+	- python2去官网安装
 - GoLand
+	- go去官网安装
 
 ### APP Store下载
 
