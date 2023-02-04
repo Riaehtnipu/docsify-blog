@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/环境搭建/Mac初始化.md",
+                "file": "docs/环境搭建/Alfred初始化.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/环境搭建/Mac初始化.md",
+                "file": "docs/环境搭建/Alfred初始化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/环境搭建/Mac初始化.md",
+                "file": "docs/环境搭建/Alfred初始化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/环境搭建/Mac初始化.md"
+                "file": "docs/环境搭建/Alfred初始化.md"
               }
             }
           },
@@ -183,8 +183,8 @@
   },
   "active": "78c6effe6e9e74c3",
   "lastOpenFiles": [
-    "docs/环境搭建/Git初始化.md",
     "docs/环境搭建/Mac初始化.md",
+    "docs/环境搭建/Git初始化.md",
     "docs/环境搭建/Alfred初始化.md",
     "docs/环境搭建/IDEA初始化.md",
     "docs/环境搭建/使用docsify搭建博客.md",

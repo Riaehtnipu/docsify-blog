@@ -1,10 +1,21 @@
 - 打开剪切板设置，设置快捷键
 - Alfred和Spotlight快捷键替换
-- Web Search全部禁用掉，
+- Web Search全部禁用掉
     - google留下改成gg
-    - 新增https://www.baidu.com/s?wd={query}
-    - Default Results修改为百度
-    - 新增https://github.com/search?q={query}
+    - 增加百度alfred搜索和兜底
+	    - 新增https://www.baidu.com/s?wd={query}
+	    - Default Results修改为百度
+    - 新增github
+	    - https://github.com/search?q={query}
+    - 增加bilibili的alfred搜索和兜底 + 头像
+	- https://search.bilibili.com/all?keyword={query}
+	- Search bilibili for '{query}'
+	- bl
+    - 增加知乎
+	- https://www.zhihu.com/search?type=content&q={query}
+	- Search zhihu for '{query}'
+	- zh
+
 - SnippetsLab
 - 考虑使用java脚本
 - json插件？一直不关闭alfred
@@ -26,6 +37,7 @@
     - [alfred-chrome-history](https://github.com/tupton/alfred-chrome-history)
     - [CodeVar](https://github.com/xudaolong/CodeVar)
         - 依赖nodeJs，去官网安装
+        - 快捷键先取消掉
     - [AlfredWorkflow-Recent-Documents](https://github.com/mpco/AlfredWorkflow-Recent-Documents)
     - [alfred-fakeum](https://github.com/deanishe/alfred-fakeum)
         - [解决不兼容的问题](https://github.com/giovannicoppola/alfred-fakeum)
