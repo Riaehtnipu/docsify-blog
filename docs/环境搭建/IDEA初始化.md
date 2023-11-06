@@ -7,7 +7,8 @@
     - where java
     - which java
 - File ｜Other Settings ｜Preferences For New Projects才是对全部项目生效
-- 字体大小设置为20
+- 字体大小设置为20（一般情况保持默认就行）
+- Preferences｜Advanced Settings | Maximum number of recent files
 - 代码签名设置
     - Preferences｜Editor | File and Code Template | Includes设置代码签名
     - 代码示例
