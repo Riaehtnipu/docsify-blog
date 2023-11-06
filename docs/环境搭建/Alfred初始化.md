@@ -1,5 +1,6 @@
 - 打开剪切板设置，设置快捷键
 - Alfred和Spotlight快捷键替换
+    - 键盘-键盘快捷键 
 - Web Search全部禁用掉
     - google留下改成gg
     - 增加百度alfred搜索和兜底
