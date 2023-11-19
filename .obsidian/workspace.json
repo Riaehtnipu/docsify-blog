@@ -4,50 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "40cae065d6d9b2bf",
+        "id": "f43c89497c789a13",
         "type": "tabs",
         "children": [
           {
-            "id": "78c6effe6e9e74c3",
+            "id": "79efa162d7984a88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/环境搭建/Alfred初始化.md",
+                "file": "docs/环境搭建/Mac初始化.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bc010f52527b82aa",
+            "id": "fa1f2a4bf24f693a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/环境搭建/Git初始化.md",
+                "file": "docs/环境搭建/IDEA初始化.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "4bc6e556a1b5da7f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "1f4b361042212696",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,6 +77,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "d7ed067b9d237658",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -113,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/环境搭建/Alfred初始化.md",
+                "file": "docs/环境搭建/IDEA初始化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/环境搭建/Alfred初始化.md",
+                "file": "docs/环境搭建/IDEA初始化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/环境搭建/Alfred初始化.md"
+                "file": "docs/环境搭建/IDEA初始化.md"
               }
             }
           },
@@ -181,17 +174,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "78c6effe6e9e74c3",
+  "active": "fa1f2a4bf24f693a",
   "lastOpenFiles": [
-    "docs/环境搭建/Mac初始化.md",
     "docs/环境搭建/Git初始化.md",
     "docs/环境搭建/Alfred初始化.md",
     "docs/环境搭建/IDEA初始化.md",
+    "docs/环境搭建/Mac初始化.md",
+    "docs/实用软件/软件存档.md",
+    "docs/方案设计/如何管理笔记.md",
     "docs/环境搭建/使用docsify搭建博客.md",
     "_sidebar.md",
     "docs/环境搭建/图床的搭建.md",
-    "docs/环境搭建/IntelliJ IDEA初始化.md",
-    "conflict-files-obsidian-git.md",
-    "docs/实用软件/软件存档.md"
+    "docs/环境搭建/IntelliJ IDEA初始化.md"
   ]
 }

@@ -54,7 +54,6 @@
     - 格式化配置
     - Import Order
     - SonarLint
-        
     - arthas idea
     - Builder Generator
     - CamelCase
@@ -73,3 +72,4 @@
     - Save Actions
     - SequenceDiagram
     - Sql Generator
+    - Key Promoter X
